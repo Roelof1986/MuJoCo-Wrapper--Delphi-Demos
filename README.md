@@ -21,8 +21,6 @@ Each example demonstrates a different aspect of the wrapper API — from basic p
 
 | Example | Description |
 |----------|-------------|
-| **Minimal Torso (Featherstone)** | Simple body with one hinge joint and base motor control. |
-| **Two-Legs Creature** | Bipod test model with alternating joint torques and balance simulation. |
 | **Humanoid Control** | Full humanoid model with random torque input on hips, knees, and ankles. |
 | **Console Joint Logger** | Non-visual example showing how to read `qpos` and `qvel` values in real time. |
 
