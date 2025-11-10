@@ -10,7 +10,7 @@ uses
 begin
   Application.Initialize;
 
-  // Maak een resource-loze form (géén .fmx nodig)
+  // Maak een resource-loze form (gÃ©Ã©n .fmx nodig)
   Form1 := TForm1.CreateNew(nil);
 
   // Init alle logica (eigenschappen/venster + MuJoCo-start)
@@ -18,4 +18,4 @@ begin
 
   Application.MainForm := Form1;
   Application.Run;
-end.end.
+end.
