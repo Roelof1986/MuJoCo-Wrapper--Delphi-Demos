@@ -1,0 +1,11 @@
+  ------------------------------------------------------------------------
+  NOTICE
+  This repository includes references to MuJoCo sample models (e.g. humanoid.xml)
+  and/or runtime libraries (mujoco.dll). These components remain the property
+  of Google DeepMind and are provided under the Apache-2.0 License.  A copy of
+  that license is included in `licenses/Apache-2.0.txt` and referenced from
+  `THIRD_PARTY_NOTICES.md`.
+
+  For more information:
+  https://mujoco.org
+  ------------------------------------------------------------------------
