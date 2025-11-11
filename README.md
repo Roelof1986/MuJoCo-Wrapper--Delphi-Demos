@@ -1,6 +1,6 @@
 # MuJoCo-Wrapper Example Projects (Delphi)
 
-Example projects demonstrating how to use the [MuJoCo-Wrapper (Delphi)](https://github.com/roelofemmerink/MuJoCo-Wrapper-Delphi)  
+Example projects demonstrating how to use the [MuJoCo-Wrapper (Delphi)](https://github.com/Roelof1986/MuJoCo-Wrapper-Delphi)  
 for real-time physics simulation, humanoid control, and neural integration.
 
 <p align="center">
@@ -35,7 +35,7 @@ All examples use:
 
 ## 🧠 Requirements
 
-- [MuJoCo-Wrapper (Delphi)](https://github.com/roelofemmerink/MuJoCo-Wrapper-Delphi) — build this DLL first  
+- [MuJoCo-Wrapper (Delphi)](https://github.com/Roelof1986/MuJoCo-Wrapper-Delphi) — build this DLL first  
 - [MuJoCo SDK](https://github.com/google-deepmind/mujoco) installed or extracted  
 - **Delphi 10.x or newer**  
 - **Windows 64-bit**  
@@ -50,7 +50,7 @@ Optional (recommended):
 ## 🛠️ How to run the demos
 
 1. **Build the wrapper**  
-   Follow the build guide from the [main wrapper repository](https://github.com/roelofemmerink/MuJoCo-Wrapper-Delphi)  
+   Follow the build guide from the [main wrapper repository](https://github.com/Roelof1986/MuJoCo-Wrapper-Delphi)  
    to generate `mujoco_delphi_wrapper.dll`.
 
 2. **Open a demo project**  
@@ -69,7 +69,21 @@ Optional (recommended):
 
 ## 📂 Repository structure
 
-MuJoCo-Wrapper--Example-Code/ ├─ examples/ │   ├─ MuJoCo_Test_Physics_V1/ │   ├─ Minimal_Torso/ │   ├─ Two_Legs_Creature/ │   ├─ Humanoid_Control/ │   └─ Console_JointLogger/ │ ├─ examples_common/ │   ├─ MujocoWrapper.pas │   ├─ PhysicsThreadTemplate.pas │   └─ FMXHelpers.pas │ ├─ models/ │   └─ humanoid.xml │ ├─ docs/ │   └─ demo_humanoid.png │ ├─ README.md └─ LICENSE.txt
+MuJoCo-Wrapper--Example-Code/ 
+├─ examples/ │   
+├─ MuJoCo_Test_Physics_V1/ │   
+├─ Minimal_Torso/ │   
+├─ Two_Legs_Creature/ │   
+├─ Humanoid_Control/ 
+│   └─ Console_JointLogger/ │ 
+├─ examples_common/ │   
+├─ MujocoWrapper.pas │   
+├─ PhysicsThreadTemplate.pas 
+│   └─ FMXHelpers.pas │ 
+├─ models/ │   └─ humanoid.xml │ 
+├─ docs/ │   └─ demo_humanoid.png │ 
+├─ README.md 
+└─ LICENSE.txt
 
 ---
 
@@ -90,7 +104,7 @@ MuJoCo-Wrapper--Example-Code/ ├─ examples/ │   ├─ MuJoCo_Test_Physics_
 You don’t need to rebuild the C++ DLL for these demos.  
 Just copy the latest `mujoco_delphi_wrapper.dll` next to your Delphi project output folder.
 
-To build the DLL from scratch, refer to the [MuJoCo-Wrapper (Delphi)](https://github.com/roelofemmerink/MuJoCo-Wrapper-Delphi) instructions (CMake + Visual Studio).
+To build the DLL from scratch, refer to the [MuJoCo-Wrapper (Delphi)](https://github.com/Roelof1986/MuJoCo-Wrapper-Delphi) instructions (CMake + Visual Studio).
 
 ---
 
