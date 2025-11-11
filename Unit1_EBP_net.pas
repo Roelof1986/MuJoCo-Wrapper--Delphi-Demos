@@ -48,7 +48,7 @@ type
     type TMode = (moTeach, moPredict);
 
 const
-    InputDelayLen = {30}{24}{6}{4}{5}{17}{27}{37}{7}{9}{29}22;
+    InputDelayLen = {30}{24}{6}{4}{5}{17}{27}{37}{7}{9}29;
 
     MaxForce = {300}{660}{520}500{700};
 
@@ -617,7 +617,7 @@ begin
 //    RanTrace[i*2] := Sin(Cyc*2*Pi*0.15)*0.5+0.5;
 //    RanTrace[i*2+1] := Sin(Cyc*2*Pi*0.27)*0.5+0.5;
 
-    TauTrace[i*2] := TauTrace[i*2]*{0.82}{0.997}0.991 + {0.18}{0.003}0.009*(Tau[i*2]);
+    TauTrace[i*2] := TauTrace[i*2]*{0.82}0.997 + {0.18}0.003*(Tau[i*2]);
     TauTrace[i*2+1] := TauTrace[i*2+1]*{0.82}0.997 + {0.18}0.003*(Tau[i*2+1]);   // --> important : tweak fatigue trace!!
 
     if (i >= 12) AND (i <= 17) then
