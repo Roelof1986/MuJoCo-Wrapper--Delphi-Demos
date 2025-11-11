@@ -4,7 +4,7 @@ Example projects demonstrating how to use the [MuJoCo-Wrapper (Delphi)](https://
 for real-time physics simulation, humanoid control, and neural integration.
 
 <p align="center">
-  <img src="docs/demo_humanoid.png" width="600" alt="Humanoid demo running in Delphi">
+  <img src="https://github.com/Roelof1986/MuJoCo-Wrapper--Delphi-Demos/blob/main/Win64/Release/model/humanoid.png" width="600" alt="Humanoid demo running in Delphi">
 </p>
 
 ---
