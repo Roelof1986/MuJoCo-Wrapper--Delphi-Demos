@@ -1,6 +1,6 @@
 {**************************************************************************
   Project : MuJoCo EBP Demo (Delphi/FMX)
-  File    : MuJoCo_Physics_Test_EBP_net_V2.pas
+  File    : MuJoCo_Physics_Test_EBP_net_V2.dpr
   Author  : Roelof Emmerink
   Year    : 2025
   License : MIT
