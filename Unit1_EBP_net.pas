@@ -35,7 +35,7 @@
 
   MuJoCo is licensed under the Apache License 2.0.
   A full copy of that license is provided in `licenses/Apache-2.0.txt`
-  and referenced from `THIRD_PARTY_NOTICES.md` and `NOTICE`.
+  and referenced from `THIRD_PARTY_NOTICES.txt` and `NOTICE`.
 ***************************************************************************}
  
  unit Unit1_EBP_net;
