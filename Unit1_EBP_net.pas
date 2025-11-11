@@ -1,6 +1,6 @@
 {**************************************************************************
   Project : MuJoCo EBP Demo (Delphi/FMX)
-  File    : Uni1_EBP_net.pas
+  File    : Unit1_EBP_net.pas
   Author  : Roelof Emmerink
   Year    : 2025
   License : MIT
